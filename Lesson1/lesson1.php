@@ -23,6 +23,16 @@ echo $comp2;
 $comp3 ="Sony <br>";
 echo $comp3;
 
+//Concatenation/Joining
+//joining a variable and variable:use the dot operator
+echo $comp1.$comp2;
+
+$car1 ="Benz ";
+$car2 ="Toyota";
+echo $car1."    ".$car2. "<br>";
+//joining a string and a variable
+echo "I love $car1 <br>";
+echo "I love $car1 and $car2";
 
 
 
