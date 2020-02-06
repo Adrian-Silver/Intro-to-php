@@ -115,6 +115,117 @@ echo "<br>";
 $i **= $s;
 echo $i;
 echo "<br><br>";
+//modulus
+$i =12;
+$s =30;
+$sub = $i % $s;
+$i =$i % $s;
+echo $i;
+echo "<br>";
+$i %= $s;
+echo $i;
+echo "<br><br><br>";
+
+//3.Comparison ops
+/*USed to comparer values
+ NB:Comparison ops returns a boolean data types: true, false NB*/
+//a. ==(equals sign)
+$s=2;
+$t=3;
+$j=2;
+$answer = $s ==$t;
+var_dump($answer);
+echo "<br><br>";
+
+$db_username = "johndoe";
+$db_password ="ekapassword";
+
+$user_username ="mikedoe";
+$user_password ="1234pass";
+
+$check =$db_username ==$db_password;
+var_dump($check);
+echo "<br><br>";
+
+//b. ===: Identical :returns true if any one variable is equal to another variable and these two variables are of the same datatype
+$check =$db_username ===$db_password;
+var_dump($check);
+echo "<br><br>";
+
+//c.!= : not equal to: true if two variables are not equal
+$check =$db_username !=$db_password;
+var_dump($check);
+echo "<br><br>";
+
+//d. !==: not identical: returns true if variables are not identical
+$check =$db_username !==$db_password;
+var_dump($check);
+echo "<br><br>";
+
+//e. > : Greater than: return true idf a value is greater than the other value
+$myname ="Adrian Silver";
+$yourname = "Sliver Mwingine";
+$result =strlen($myname) > strlen($yourname);
+var_dump($result);
+echo "<br><br>";
+
+//f. < : Less than: return true idf a value is greater than the other value
+$myname ="Adrian Silver";
+$yourname = "Sliver Mwingine";
+$result =strlen($myname) < strlen($yourname);
+var_dump($result);
+echo "<br><br>";
+
+//g. <= : Less than or equals to: return true if a value is greater than the other value
+$myname ="Adrian Silver";
+$yourname = "Sliver Mwingine";
+$result =strlen($myname) <= strlen($yourname);
+var_dump($result);
+echo "<br><br>";
+
+//h. >= : Greater than or equals to: return true if a value is greater than the other value
+$myname ="Adrian Silver";
+$yourname = "Sliver Mwingine";
+$result =strlen($myname) >= strlen($yourname);
+var_dump($result);
+echo "<br><br>";
+
+//4. Logical ops
+/*Used to combine conditional statements*/
+//a. and : returns true if two operations are true
+$x=100;
+$y=200;
+if($x ==100 and $y ==200){
+    echo "<h1>It is true $x is equal to 100 and $y is equal to 200</h1>";
+}
+//b. or : returns true if either of the two operations are true
+$x=100;
+$y=200;
+if($x ==300 or $y !=$x){
+    echo "<h1>It is true $x is equal to 100 and $y is not equal to 200</h1>";
+}
+/*   || also means or*/
+if($x ==300 || $y !=$x){
+    echo "<h1>It is true $x is equal to 100 and $y is not equal to 200</h1>";
+}
+//c. not : returns true if a variable is false
+$check = !($x == 100 and $y ==200);
+var_dump($check);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>

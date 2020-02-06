@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251a9b8a-d76a-4c2d-b0e7-799cee7775b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson1/lesson2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson1/lesson3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson1/lesson4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/lesson1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/lesson1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson1/lesson3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/lesson3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,9 @@
       <option name="presentableId" value="Default" />
       <updated>1580801468598</updated>
       <workItem from="1580801470486" duration="5497000" />
-      <workItem from="1580882410562" duration="9511000" />
+      <workItem from="1580882410562" duration="9908000" />
+      <workItem from="1580967556954" duration="942000" />
+      <workItem from="1580968566163" duration="9121000" />
     </task>
     <servers />
   </component>
@@ -71,17 +71,29 @@
       <screen x="0" y="0" width="1024" height="741" />
     </state>
     <state x="209" y="0" width="598" height="737" key="#PHP/0.0.1024.741@0.0.1024.741" timestamp="1580886280895" />
+    <state x="195" y="108" width="626" height="520" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580968451450">
+      <screen x="0" y="0" width="1024" height="741" />
+    </state>
+    <state x="195" y="108" width="626" height="520" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1024.741@0.0.1024.741" timestamp="1580968451450" />
     <state x="295" y="128" width="426" height="480" key="FileChooserDialogImpl" timestamp="1580883645464">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
     <state x="295" y="128" width="426" height="480" key="FileChooserDialogImpl/0.0.1024.741@0.0.1024.741" timestamp="1580883645464" />
-    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog" timestamp="1580888460805">
+    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog" timestamp="1580973434676">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
-    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog/0.0.1024.741@0.0.1024.741" timestamp="1580888460805" />
+    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog/0.0.1024.741@0.0.1024.741" timestamp="1580973434676" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1580890913537">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1024.741@0.0.1024.741" timestamp="1580890913537" />
+    <state x="205" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1580968588729">
+      <screen x="0" y="0" width="1024" height="741" />
+    </state>
+    <state x="205" y="198" key="com.intellij.ide.util.TipDialog/0.0.1024.741@0.0.1024.741" timestamp="1580968588729" />
+    <state x="175" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1580975298980">
+      <screen x="0" y="0" width="1024" height="741" />
+    </state>
+    <state x="175" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1024.741@0.0.1024.741" timestamp="1580975298980" />
   </component>
 </project>
