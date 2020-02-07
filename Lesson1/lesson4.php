@@ -73,7 +73,7 @@ echo "<br>";
  2.Write code that calculates the volume of a cylinder of height 14 and diameter14.
   echo "This is the cylinder to use if the volume is grater than 10"
 */
-
+//no. 1
 $a=100;
 $b=2;
 $div=$a/$b;
@@ -111,11 +111,91 @@ if ( $volume >10){
     echo "THis is the cylinder to use if the volume is greater than 10";
 }
 
+//switch statement - selects one of many blocks of code to  be executed
+//switch syntax
+/*
+switch (n){
+    case label1:
+        code to execute if n=label1
+    break
 
+    case label2:
+        code to execute if n=label2
+    break
 
+    case label3:
+        code to execute if n=label3
+    break
 
+    case label4:
+        code to execute if n=label4
+    break
 
+    default:
+        Code to be executed
+}
+*/
+$favteam="Chelsea";
+switch ($favteam) {
+    case "Man-U":
+        echo "<p>Man-U at position 5</p>";
+        break;
 
+    case "Liverpool":
+        echo "<p>Liverpool at position 1</p>";
+        break;
+
+    case "Leicester":
+        echo "<p>Leicester at position 3</p>";
+        break;
+
+    case "Mam-City":
+        echo "<p>Man-City at position 2</p>";
+        break;
+    default:
+        echo "<p style='color: blue'>None of the above is my favourite team</p>";
+}
+$favteam="Liverpool";
+switch ($favteam) {
+    case "Man-U":
+        echo "<p>Man-U at position 5</p>";
+        break;
+
+    case "Liverpool":
+        echo "<p style='color: maroon'>Liverpool at position 1</p>";
+        break;
+
+    case "Leicester":
+        echo "<p>Leicester at position 3</p>";
+        break;
+
+    case "Mam-City":
+        echo "<p>Man-City at position 2</p>";
+        break;
+    default:
+        echo "<p style='color: red'>None of the above is my favourite team</p>";
+}
+
+$favteam="Leicester";
+switch ($favteam) {
+    case "Man-U":
+        echo "<p>Man-U at position 5</p>";
+        break;
+
+    case "Liverpool":
+        echo "<p>Liverpool at position 1</p>";
+        break;
+
+    case "Leicester":
+        echo "<p style='color: darkgoldenrod'>Leicester at position 3</p>";
+        break;
+
+    case "Mam-City":
+        echo "<p>Man-City at position 2</p>";
+        break;
+    default:
+        echo "<p style='color: red'>None of the above is my favourite team</p>";
+}
 
 
 
