@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251a9b8a-d76a-4c2d-b0e7-799cee7775b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson1/lesson7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson1/lesson10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson1/lesson8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson1/lesson9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson1/table/table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson1/lesson6.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/lesson6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson1/lesson7.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/lesson7.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/presentation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -62,7 +66,11 @@
       <workItem from="1580968566163" duration="10425000" />
       <workItem from="1581054124562" duration="10745000" />
       <workItem from="1581314476521" duration="4103000" />
-      <workItem from="1581318993786" duration="4544000" />
+      <workItem from="1581318993786" duration="5826000" />
+      <workItem from="1581485529351" duration="9644000" />
+      <workItem from="1581496338924" duration="1113000" />
+      <workItem from="1581571698729" duration="12035000" />
+      <workItem from="1581656527294" duration="4609000" />
     </task>
     <servers />
   </component>
@@ -78,25 +86,25 @@
       <screen x="0" y="0" width="1024" height="741" />
     </state>
     <state x="195" y="108" width="626" height="520" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1024.741@0.0.1024.741" timestamp="1580968451450" />
-    <state x="295" y="128" width="426" height="480" key="FileChooserDialogImpl" timestamp="1580883645464">
+    <state x="295" y="128" width="426" height="480" key="FileChooserDialogImpl" timestamp="1581657664450">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
-    <state x="295" y="128" width="426" height="480" key="FileChooserDialogImpl/0.0.1024.741@0.0.1024.741" timestamp="1580883645464" />
-    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog" timestamp="1581319975654">
+    <state x="295" y="128" width="426" height="480" key="FileChooserDialogImpl/0.0.1024.741@0.0.1024.741" timestamp="1581657664450" />
+    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog" timestamp="1581658755548">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
-    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog/0.0.1024.741@0.0.1024.741" timestamp="1581319975654" />
+    <state x="332" y="296" width="351" height="144" key="NewPhpFileDialog/0.0.1024.741@0.0.1024.741" timestamp="1581658755548" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1580890913537">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1024.741@0.0.1024.741" timestamp="1580890913537" />
-    <state x="205" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1581318993760">
+    <state x="205" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1581656531266">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
-    <state x="205" y="198" key="com.intellij.ide.util.TipDialog/0.0.1024.741@0.0.1024.741" timestamp="1581318993760" />
-    <state x="175" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1581320130287">
+    <state x="205" y="198" key="com.intellij.ide.util.TipDialog/0.0.1024.741@0.0.1024.741" timestamp="1581656531266" />
+    <state x="175" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1581658878887">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
-    <state x="175" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1024.741@0.0.1024.741" timestamp="1581320130287" />
+    <state x="175" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1024.741@0.0.1024.741" timestamp="1581658878887" />
   </component>
 </project>

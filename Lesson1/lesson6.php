@@ -31,12 +31,70 @@ foreach($fruits as $matunda){
     echo $matunda. '<br>';
 }
 
-
+echo "<br><br>";
 
 /*Using a folder for loop from 0-100, if a number is a multiple of 3 echo "FIZZ"
 If a number is a multiple of 5 echo "BUZZ".
 If a multiple of both 3 and 5 echo "FIZZBUZZ".
 Otherwise echo the number.   */
+
+for ($x=0;$x<=100;$x++){
+    if($x==0){
+        echo $x." <br>";
+    }
+    elseif ($x %15==0){
+        echo $x. "FIZZBUZZ <br>";
+    }
+    elseif ($x %3==0){
+        echo $x. "FIZZ <br>";
+    }
+    elseif ($x %5==0){
+        echo $x. "BUZZ <br>";
+    }
+
+    else{
+        echo $x. "<br>";
+    }
+}
+
+echo "<br><br><br>";
+
+
+//solution 1 to fizzbuzz
+for ($x=0 ; $x<100; $x++){
+//    $x: start of the loop
+//    $x<100 : test condition
+//    $x++ : increment value
+    if ($x %15==0){
+        echo "$x FIZZBUZZ <br>";
+    }elseif ($x%3==0){
+        echo "$x FIZZ <br>";
+    }elseif ($x %5){
+        echo "$x BUZZ <br>";
+    }else{
+        echo "$x <br>";
+    }
+}
+
+echo "<br><br><br>";
+
+//osln 2 to fizzbuzz
+for ($i= 100; $i<100; $i++){
+    if ($i%3==0 and $i%5==0){
+        echo "$x FIZZBUZZ <br>";
+    }elseif($i %3==0){
+        echo "FIZZ <br>";
+    }elseif($i%5==0){
+        echo "$i BUZZ";
+    }else{
+        echo "$i";
+    }
+}
+
+echo "<br><br><br>";
+
+
+
 
 /*for (initial value; text value;increment value){
     code to be executed
