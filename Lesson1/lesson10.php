@@ -1,11 +1,18 @@
 <?php
+require 'header.php';
+require 'config.php';
+
+
+
+
+
 //COMPLETE PHP FORM
 //algorithm
 /*
  * 1. create variables that will store received data
  */   $username=$first_name = $last_name = $email = $password1 = $password2 = $gender ='';
 // * 2. create variables that will store error message
-$username=$first_name = $last_name = $email = $password1 = $password2 = $gender ='';
+$username_err=$first_name_err = $last_name_err = $email_err = $password1_err = $password2_err = $gender_err ='';
 // * 3. check if the data is empty
 
 
@@ -19,33 +26,49 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     $password1 = safisha($_POST['pass1']);
     $password2 = safisha($_POST['pass2']);
     $gender = safisha($_POST['gender']);
-}
+
+
+    /* ***I think there is an error here. ****/
+
+
     //        3.3. check if data is empty
-//    if true assign error messages to respective error variables
-    if(empty($username)){
-        $username_err ="Please fill in your username";
+    //    if true assign error messages to respective error variables
+    if (empty($username)) {
+        $username_err = "Please fill in your username";
     }
-    if(empty($first_name)){
-        $first_name_err ="Please fill in your first name";
+    if (empty($first_name)) {
+        $first_name_err = "Please fill in your first name";
     }
-    if(empty($last_name)){
-        $last_name_err ="Please fill in your last name";
+    if (empty($last_name)) {
+        $last_name_err = "Please fill in your last name";
     }
-    if(empty($email)){
-        $email_err ="Please fill in your email";
+    if (empty($email)) {
+        $email_err = "Please fill in your email";
     }
-    if(empty($password1)){
-        $password1_err ="Please fill in your password";
+    if (empty($password1)) {
+        $password1_err = "Please fill in your password";
     }
-    if(empty($password2)){
-        $password2_err ="Please confirm your password";
+    if (empty($password2)) {
+        $password2_err = "Please confirm your password";
     }
-    if(empty($password1 != $password2)){
-        $first_name_err ="Your password did not match";
-    }
-    if(empty($gender)){
+
+    if (empty($gender)) {
         $gender_err = "Please select your gender";
     }
+    if (empty($password1 != $password2)) {
+        $password_err = "Your password did not match";
+        /*  ERROR: also thought here. */
+    } else {
+        $password1 = md5($password1);
+        //Inserting data into the table
+        $sql = "INSERT INTO `users`(`id`, `username`, `firstname`, `lastname`, `email`, `password`, `gender`) VALUES (NULL,'$username','$first_name','$last_name','$email','$password1','$gender')";
+        if (mysqli_query($connection, $sql)) {
+            echo "Data inserted successfully <br>";
+        } else {
+            echo "Data not inserted" . mysqli_error($connection);
+        }
+    }
+}
 ?>
 
     <table style="width: 100%">
@@ -72,7 +95,8 @@ function safisha($data)
     $data = htmlspecialchars($data);
     return $data;
 }
-// */
+// /* There could e an error here (above). */
+
 ?>
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post" enctype="multipart/form-data">
     <fieldset>
@@ -115,7 +139,9 @@ function safisha($data)
 
 </form>
 
-
+<?php
+require 'footer.php';
+?>
 
 
 
