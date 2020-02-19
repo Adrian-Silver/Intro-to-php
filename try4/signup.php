@@ -31,16 +31,16 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     //        3.3. check if data is empty
     //    if true assign error messages to respective error variables
     if (empty($product)) {
-        $product_err = "Please fill in your username";
+        $product_err = "Please enter a product";
     }
     if (empty($value)) {
-        $value_err = "Please fill in your first name";
+        $value_err = "Please insert the product's value";
     }
     if (empty($description)) {
-        $description_err = "Please fill in your last name";
+        $description_err = "Please fill in the product's description";
     }
     if (empty($condit)) {
-        $condit_err = "Please fill in your email";
+        $condit_err = "Please fill in the product's condition";
 
     }
         //Inserting data into the table

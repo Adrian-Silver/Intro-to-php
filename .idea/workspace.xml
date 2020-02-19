@@ -2,73 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251a9b8a-d76a-4c2d-b0e7-799cee7775b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assigno1/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigno1/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigno1/details.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigno1/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigno1/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigno1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigno1/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap-4.4.1-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/details.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/bootstrap-4.4.1-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/details.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try4/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/banner1.png.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/dish2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/gd.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/house1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/js2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/kt2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/pyrest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/details.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/lesson10.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/lesson10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try4/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/try4/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try4/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/try4/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try4/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/try4/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +106,7 @@
       <workItem from="1581919276626" duration="11033000" />
       <workItem from="1582005550883" duration="7232000" />
       <workItem from="1582013909625" duration="2737000" />
-      <workItem from="1582088327216" duration="2067000" />
+      <workItem from="1582088327216" duration="7307000" />
     </task>
     <servers />
   </component>

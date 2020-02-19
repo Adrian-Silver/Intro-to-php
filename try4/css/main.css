@@ -1,6 +1,46 @@
 body{
-    background-image: linear-gradient(to right, mediumseagreen,lightslategrey, aqua, lightslategrey);
+    background-image: linear-gradient(to right bottom, orangered, sandybrown, darkgoldenrod);
 }
 header{
-    background-image: linear-gradient(to right, chartreuse,aquamarine, darkorange);
+    background-image: linear-gradient(to left top, darksalmon, dimgray);
+}
+header h1{
+    font-weight: bolder;
+    color: #0f6674;
+}
+header .navbar-brand{
+    color: #d32f2f;
+}
+header a:hover{
+    color: #6610f2;
+    font-weight: bolder;
+}
+.nav-item active{
+    color: #d32f2f;
+}
+#navbarSupportedContent ul li.nav-item active{
+    color: #d32f2f;
+
+}
+footer{
+    background-image: linear-gradient(to right, darksalmon, dimgray);
+    float: left;
+    display: inline;
+    width: 100%;
+    color: rgba(0,0,0,0.5);
+    padding-left: 15px;
+}
+
+#footer{
+    color: #6610f2;
+}
+footer ul{
+    display: inline;
+}
+footer ul li{
+    display: inline;
+}
+footer a:hover{
+    color: #6610f2;
+    font-weight: bolder;
 }
