@@ -55,7 +55,7 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     if (empty($gender)) {
         $gender_err = "Please select your gender";
     }
-    if (empty($password1 != $password2)) {
+    if ($password1 != $password2) {
         $password_err = "Your password did not match";
         /*  ERROR: also thought here. */
     } else {
@@ -98,6 +98,7 @@ function safisha($data)
 // /* There could e an error here (above). */
 
 ?>
+
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post" enctype="multipart/form-data">
     <fieldset>
         <h3>Register here...</h3>
