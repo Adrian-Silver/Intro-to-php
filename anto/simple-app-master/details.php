@@ -60,7 +60,7 @@ if(isset($_POST['update_btn']) and isset($_GET['id'])){
         </div>
         <div class="col-md-8 col-lg-8 col-xl-8">
             <div class="card">
-                <form action="update.php" method="post" enctype="multipart/form-data">
+                <form action="update_handler.php" method="post" enctype="multipart/form-data">
                     <fieldset>
                         <div class="form-group">
                             <label for="">Name</label>

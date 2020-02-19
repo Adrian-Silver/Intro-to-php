@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251a9b8a-d76a-4c2d-b0e7-799cee7775b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/details.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/banner1.png.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/dish2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/gd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/house1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/js2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/kt2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/images/pyrest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anto/simple-app-master/update_handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try4/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/try4/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try4/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/try4/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try4/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/try4/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anto/simple-app-master/details.php" beforeDir="false" afterPath="$PROJECT_DIR$/anto/simple-app-master/details.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +84,7 @@
       <workItem from="1581919276626" duration="11033000" />
       <workItem from="1582005550883" duration="7232000" />
       <workItem from="1582013909625" duration="2737000" />
-      <workItem from="1582088327216" duration="7307000" />
+      <workItem from="1582088327216" duration="11669000" />
     </task>
     <servers />
   </component>
@@ -130,10 +108,10 @@
       <screen x="0" y="0" width="1024" height="741" />
     </state>
     <state x="284" y="186" width="447" height="364" key="NewPhpClassDialog/0.0.1024.741@0.0.1024.741" timestamp="1581661755923" />
-    <state x="332" y="296" width="351" height="148" key="NewPhpFileDialog" timestamp="1582012291801">
+    <state x="332" y="296" width="351" height="148" key="NewPhpFileDialog" timestamp="1582097886776">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
-    <state x="332" y="296" width="351" height="148" key="NewPhpFileDialog/0.0.1024.741@0.0.1024.741" timestamp="1582012291801" />
+    <state x="332" y="296" width="351" height="148" key="NewPhpFileDialog/0.0.1024.741@0.0.1024.741" timestamp="1582097886776" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1580890913537">
       <screen x="0" y="0" width="1024" height="741" />
     </state>
